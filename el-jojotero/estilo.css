@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #fff;
+}
+.navegacion{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin:auto;
+    background: #26bc6c;
+    position: fixed;
+    width: 100vw;
+    font-size: 30px;
+    padding: 5px 0;
+    text-decoration: none;
+    font-family: sans-serif;
+    z-index: 1;
+}
+.navegacion a{
+    user-select: none;
+    text-decoration: none;
+    color: #000;
+}
+.navegacion a:hover{
+    transition: 0.3s;
+    border-bottom: 3px solid #000;
+    font-size: 33px;
+}
+.baner{
+    width: 100vw;
+    height: 290px;
+    object-fit: cover;
+    border-bottom: 2px solid #000;
+    margin: 0;
+}
+.img-restaurante{
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: 500px;
+}
+
+h2{
+    font-size: 40px;
+    color: #000;
+    filter: drop-shadow(0 0 2px #fff);
+    font-family: 'Courier New', Courier, monospace;
+}
+div{
+    border-radius: 20px;
+    text-align: center;
+}
+h3{
+    font-size: 20px;
+}
+button{
+    font-size: 30px;
+}
+
+.img-patio{
+    width: auto;
+    height: 500px;
+    object-fit: cover;   
+}
+.menu-baner img{
+    width: 100vw;
+    height: 500px;
+    object-fit: cover;
+}
+.btn-menu-comida{
+    font-size: 50px;
+}
+.horario{
+    width: 310px;
+    height: auto;
+    border: 2px solid #000;
+    display: inline-block;
+    margin-top: -10;
+    padding: 20px 0;
+}
+.horario h2{
+    font-size: 30px;
+}
+.zonas{
+    width: 310px;
+    height: auto;
+    border: 2px solid #000;
+    display: inline-block;
+    padding: 20px 0;
+}
+select{
+    margin: 50px 0;
+    padding: 50px 0;
+}
+.zonas-kids{
+    width: 300px;
+    height: auto;
+    border: 2px solid #000;
+    display: inline-block;
+    padding: 20px 0;
+}
+.img-grande{
+    width: 750px;
+    object-fit: cover;
+}
+.zonas-kids-cont{
+    display: inline-flex;
+    flex-direction: column;
+}
+.seccion{
+    margin: 0;
+}
