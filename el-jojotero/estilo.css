@@ -271,10 +271,10 @@ section div{
     }
     .nav-btn{
         display: block;
-        font-size: 30vw;
+        font-size: 15vw;
+        width: 20vw;
         border-radius: 10px;
         translate: 0;
-        width: auto;
         position:fixed;
         z-index: 1;
         margin: auto;
@@ -282,9 +282,12 @@ section div{
     .nav-cell .btn-close{
         display: inline-block;
         border-radius: 10px;
-        width:auto;
-        font-size: 30vw;
+        font-size: 15vw;
+        width: 25vw;
         margin: 0 auto;
+    }
+    .btn-close{
+        height: 150px;
     }
     .btn-menu-comida{
         display: block;
