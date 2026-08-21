@@ -188,6 +188,7 @@ section div{
         text-decoration: none;
         color: #000;
         display: flex;
+        font-size: 8vw;
         justify-content: space-around;
         padding: 5vh 0;
     }
