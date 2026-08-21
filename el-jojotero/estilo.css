@@ -101,6 +101,7 @@ button{
     display: inline-block;
     padding: 10px 0;
     translate: 0 -120px;
+    margin: 10px;
 }
 .zonas h2{
     margin-bottom: 20px;
