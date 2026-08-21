@@ -271,7 +271,7 @@ section div{
     }
     .nav-btn{
         display: block;
-        font-size: 30vw;
+        font-size: 300px;
         border-radius: 10px;
         translate: 0;
         width: auto;
@@ -283,7 +283,7 @@ section div{
         display: inline-block;
         border-radius: 10px;
         width:auto;
-        font-size: 30vw;
+        font-size: 300px;
         margin: 0 auto;
     }
     .btn-menu-comida{
