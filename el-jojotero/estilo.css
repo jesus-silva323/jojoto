@@ -175,9 +175,9 @@ section div{
         margin:auto;
         background: #26bc6c;
         position: fixed;
-        width: 120px;
+        width: 40vw;
         height: 100vh;
-        font-size: 30px;
+        font-size: 35px;
         text-decoration: none;
         font-family: sans-serif;
         z-index: 10;
@@ -192,12 +192,11 @@ section div{
         padding: 5vh 0;
     }
     .nav-cell a:active{
-        font-size: 23px;
         color: #fff;
+        background: #fff;
         text-align: center;
     }
     .nav-cell a:hover{
-        font-size: 23px;
         border: none;
     }
     .main{
@@ -272,22 +271,20 @@ section div{
     }
     .nav-btn{
         display: block;
-        font-size: 50px;
+        font-size: 60px;
         border-radius: 10px;
         translate: 0;
-        width: 60px;
+        width: 80px;
         position:fixed;
         z-index: 1;
+        margin: auto;
     }
     .nav-cell .btn-close{
         display: inline-block;
         border-radius: 10px;
-        width: 60px;
-        font-size: 40px;
+        width: 80px;
+        font-size: 60px;
         margin: 0 auto;
-    }
-    .navegacion .nav-btn{
-        display: block;
     }
     .btn-menu-comida{
         display: block;
