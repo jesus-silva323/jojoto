@@ -271,10 +271,10 @@ section div{
     }
     .nav-btn{
         display: block;
-        font-size: 60px;
+        font-size: 120px;
         border-radius: 10px;
         translate: 0;
-        width: 80px;
+        width: 100px;
         position:fixed;
         z-index: 1;
         margin: auto;
@@ -283,7 +283,7 @@ section div{
         display: inline-block;
         border-radius: 10px;
         width: 80px;
-        font-size: 60px;
+        font-size: 80px;
         margin: 0 auto;
     }
     .btn-menu-comida{
