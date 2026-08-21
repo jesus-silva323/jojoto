@@ -7,17 +7,20 @@
     <link rel="stylesheet" type="text/css" href="estilo.css">
 </head>
 <body>
-    <nav class="navegacion">
+    <button id="nav-btn" class="nav-btn">=</button>
+    <nav class="navegacion " id="nav">
+        <button id="btn-close" class="btn-close">X</button>
         <li><a href="#horarios">horarios</a></li>
         <li><a href="#eat-zone">zonas para comer</a></li>
         <li><a href="#rent-zone">zonas recrativas</a></li>
         <li><a href="#food-menu">menu</a></li>
+        <li><a href="#mapa">mapa</a></li>
     </nav>
     <img src="imagenes/maiz2.jpg" id="horarios" class="baner">
     <main class="contenedor">
         <article>
             <h2>el mejor lugar para compartir en familia</h2>
-            <img src="imagenes/retaurante.jpg" class="img-restaurante">
+        <div class="cont-text">
             <div class="horario">
                 <h2>horarios</h2>
                 <h2>lunes a viernes</h2>
@@ -25,47 +28,54 @@
                 <h2>sabado y domingo</h2>
                 <h3>8:00 AM - 12:00 PM</h3>
             </div>
+            <img src="imagenes/retaurante.jpg" class="img-restaurante">
             <img src="imagenes/restaurante3.jpg" class="img-restaurante">
+        </div>
             <br id="eat-zone"> 
         </article>
         <section class="seccion">
             <h2>con lugares esplendidos</h2>
-                <img src="imagenes/restaurante2.jpg" class="img-patio">
-                <div class="zonas">
+               <div class="zonas">
                     <h2>la laguna</h2>
                     <h2>el toro</h2>
                     <h2>el araguaney</h2>
                     <h2>llano centro</h2>
                     <button>reservar mesa</button>
                 </div>
+                <img src="imagenes/restaurante2.jpg" class="img-patio">
                 <img src="imagenes/restaurante4.jpg" class="img-patio">
-                 <br id="rent-zone">
+                <br id="rent-zone">
         </section>
         <section class="seccion">
             <h2> con zonas recreativas y lugares para fiestas privadas</h2>
-            <img src="imagenes/restaurante2.jpg" class="img-patio">
-            <div class="zonas-kids-cont">
+              <div class="zonas-kids-cont">
                  <div class="zonas-kids">
                     <h2>zona kids</h2>
                     <h3>el corral</h3>
-                    <h3>campo recreativo</h3>
+                    <h3>parque recreativo</h3>
                     <h3>llaneritos</h3>
-                    <h3>sin costos adicionales!</h3>
                     <br>
                     <h2>alquiler para</h2>
-                    <h3>fiestas</h3>
-                    <h3>bodas</h3>
-                    <h3>graduaciones</h3>
+                    <h3>cualquier tipo de fiestas</h3>
+                    <br>
                     <button>alquilar local</button>
                 </div>
+              <img src="imagenes/restaurante2.jpg" class="img-patio">
+              <img src="imagenes/llanos.jpg" class="img-grande">
             </div>
-            <img src="imagenes/llanos.jpg" class="img-grande">
+            <br id="food-menu">
         </section>
-        <section class="menu-baner" id="food-menu">
+        <section class="menu-baner">
             <h2>y un menu que no te queras perder</h2>
             <img src="imagenes/menu2.jpg" class="img-patio">
             <button  class="btn-menu-comida"> ver menu </button>
+            <br>
+        </section>
+        <section class="seccion" id="mapa">
+        <h2>mapa</h2>
+        <img src="imagenes/menu2.jpg" class="img-mapa">    
         </section>
     </main>
+    <script src="app.js"></script>
 </body>
 </html>
